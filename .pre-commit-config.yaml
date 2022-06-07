@@ -10,3 +10,8 @@ repos:
             "--expand-star-imports",
             "--ignore-init-module-imports",
         ]
+  - repo: https://github.com/pycqa/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort
+        name: isort (python)
